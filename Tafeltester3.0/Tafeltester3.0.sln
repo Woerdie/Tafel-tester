@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tafeltester3.0", "Tafeltester3.0\Tafeltester3.0.csproj", "{FCD0BD87-0140-4121-8FC9-65BDB46BE40B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCD0BD87-0140-4121-8FC9-65BDB46BE40B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCD0BD87-0140-4121-8FC9-65BDB46BE40B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCD0BD87-0140-4121-8FC9-65BDB46BE40B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCD0BD87-0140-4121-8FC9-65BDB46BE40B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {78C987AF-3117-414E-AA75-C35A1AC5347F}
+	EndGlobalSection
+EndGlobal

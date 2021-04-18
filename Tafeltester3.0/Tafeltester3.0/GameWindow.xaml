@@ -1,0 +1,17 @@
+﻿<Window x:Class="Tafeltester3._0.GameWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tafeltester3._0"
+        mc:Ignorable="d"
+        Title="GameWindow" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="SomLabel" Content="Label" HorizontalAlignment="Left" Margin="274,199,0,0" VerticalAlignment="Top" Width="282" RenderTransformOrigin="0.426,0.44"/>
+        <TextBox x:Name="awnserbox" PreviewTextInput="PreviewTextInput" HorizontalAlignment="Left" Height="23" Margin="348,244,0,0" TextWrapping="Wrap" Text="Antwoord" VerticalAlignment="Top" Width="120" GotFocus="awnserbox_GotFocus"/>
+        <Button x:Name="send" Content="Verzenden" HorizontalAlignment="Left" Margin="365,300,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Label Content="Score" HorizontalAlignment="Left" Margin="639,62,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="naamscore" Content="" HorizontalAlignment="Left" Margin="702,62,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
